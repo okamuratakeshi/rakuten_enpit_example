@@ -1,10 +1,11 @@
 language: ruby
 rvm:
-- 2.1.2
+- 2.2.2
 deploy:
   provider: heroku
   api_key:
-    secure: T/rkhibwg2EBQhDVff/E04HWIJVivfR6vNq7aGQUq2cMizDQgi4657ykyQxljHmyrdRFdY7DuPc76qj4Zo+wTxH9OiZPrDHaxacxn8Kd6xPH4asZDsL9oiFf8dEVWS2XOIPwDHLykHr4LIcxoiepqlpGPQ1UREi/DynUJ6umgaY=
-  app: mighty-river-7140
+    secure: jv/o6V/ggFrp/OyOAZIUXdJh5nutmm3/cC1DXLG3E6dhYa9CKqGFRmjoL8rOzgqw7+FXk3qfrAbaz8pCrIAX7kBFSyI1Pg3N+ykuqLp4dIKNIsJDzFDI4LXL1A6uKpmHBUVdc1lTzrQb1rl5yUGTVw4WS/Lx6Z6v3B8p1b/Yh1Rf8fpnNS3JKZvewHZr2cTm4Qd4Zz1PVratJkOwdw0ZKHVI5deD98YLG6Ze1ymkBIRnNzR02uJSIwWBL2A/4/VB35spP15d2GKoRMWr6EmmcDOhjCiGgJegn+i4YCZthO67IzJxtUn3ERgz+p53rfWsG627UKbZC4jB9VnwFYf/ATdXzzSNegdxu/CT1NukIrAEUwUOO+Piy0noEMlxeZKKXJ8piLDcEIWdqYSqrVq0fworT09x51QbOzUvdqiO7BuwrkNfxuqeOJbpVaNjUtLkxkyhHE6BrRhRky88e/jcmH4LdtxRzhTLWrWP+K2aARFwiPektSuqmRliMK5Lp9y/Bnj1k9LFdqViltZnWARncNg+3nxWwub/OeMu9MLwCe9LAseYZiD99Nw+T4yyFOL/yuOeRG6RtAkJPYFRpWA7BduF3xQs9c6S+fiBOP0CcoEQr3cnED67/S7loaStIeuYV0GexUPjmTS8LaU6GjUYBuNr5tEaNZ5FwBjXp7bOeWw=
+  app: limitless-fortress-6385
   on:
-    repo: ryuichiueda/rakuten_enpit_example
+    repo: okamuratakeshi/rakuten_enpit_example
+    branch: new_feature
