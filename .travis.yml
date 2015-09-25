@@ -8,4 +8,4 @@ deploy:
   app: limitless-fortress-6385
   on:
     repo: okamuratakeshi/rakuten_enpit_example
-    branch: new_feature
+    branch: master
